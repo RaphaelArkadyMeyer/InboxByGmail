@@ -1,0 +1,366 @@
+/* Makes the seperating dateline fonts gray and small (Reminders, Today, Yesterday, ...) */
+
+.Cq .nJ.A2 {
+    color: #616161;
+    font-size: 10pt;
+}
+
+/* Removes the utilities bar, left */
+
+.bhZ+.bkK {
+    margin-left: 0px;
+}
+
+/* Removes the dates */
+
+.xW {
+    display: none;
+}
+
+/* Do not gray out already read messages */
+
+.yO {
+    background: #ffffff;
+}
+
+/* Main background color */
+
+div.BltHke.nH.oy8Mbf {
+    background: #f2f2f2;
+}
+
+/* Same thing, but for a single inbox. */
+
+div.no, div.aeJ {
+    background: #f2f2f2;
+}
+
+/* Removes the "display older" button for each inbox */
+
+div.T-I.J-J5-Ji.amD.T-I-awG.HeQuj.T-I-ax7.T-I-Js-Gs.T-I-JE.L3 {
+    display: none;
+}
+
+/* Removes the "display newer" button for each inbox */
+
+div.T-I.J-J5-Ji.amD.T-I-awG.HeQuj.T-I-ax7.T-I-Js-IF.T-I-JE.L3 {
+    display: none;
+}
+
+/* Make everything nice and centered */
+
+div.aia {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Same thing, but */
+
+div.aeF {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Hide the compose new email button when the sidebar is open */
+
+div.aic {
+    display: none;
+}
+
+/* Hide the gray box indicating which inbox a given email is from */
+
+div.av {
+    display: none;
+}
+
+div.gb_Fe {
+    display: none;
+}
+
+div.gb_Wc.gb_gd.gb_id {
+    min-width: 118px;
+}
+
+div.gb_ad {
+    opacity: 0.75;
+}
+
+div.gb_ad:hover {
+    opacity: 1;
+}
+
+div.gb_hc svg {
+    display: none;
+}
+
+div.gb_xd.gb_4d.gb_Fd {
+    border-color: #4285f4;
+}
+
+div.gb_zc {
+    opacity: 0.75;
+}
+
+div.gb_zc:hover {
+    opacity: 1;
+}
+
+div.l6 {
+    display: none;
+}
+
+div.l6 div {
+    display: none;
+}
+
+div.ma {
+    display: none;
+}
+
+div.md.mj div {
+    display: none;
+}
+
+div.nJ.A2 {
+    font-family: Helvetica;
+}
+
+div.pH-A7.a9q {
+    display: none;
+}
+
+div.pH.a9q {
+    display: none;
+}
+
+form.gb_Se.gb_qf {
+    margin-left: -180px;
+}
+
+form.gb_hf.gb_Tf {
+    max-width: 1200px;
+}
+
+img.gb_0a {
+    display: none;
+}
+
+input.gb_Df {
+    color: #ffffff;
+}
+
+input.gb_Df::placeholder {
+    color: #ffffff;
+}
+
+span.Dj {
+    display: none;
+}
+
+span.Dj span {
+    display: none;
+}
+
+span.adl {
+    display: none;
+}
+
+span.bog span {
+    color: #000000;
+}
+
+span.bqe {
+    font-family: Helvetica;
+}
+
+span.y2 {
+    font-family: helvetica;
+}
+
+span.yP {
+    border-color: #000000;
+    color: #000000;
+    font-family: Helvetica;
+}
+
+span.zF {
+    font-family: Helvetica;
+}
+
+svg {
+    color: #ffffff;
+    opacity: 1;
+}
+
+svg.gb_ge {
+    display: none;
+}
+
+svg.gb_he {
+    display: none;
+}
+
+tr.zA {
+    box-shadow: 0 -1px 0 #e0e0e0,0 0 2px rgba(0,0,0,.12),0 2px 4px rgba(0,0,0,.24);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+tr.zA.yO.aqw {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #ffffff;
+}
+
+tr.zA.zE.x7.aqw {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+header.gb_ja {
+    background-color: #4285f4;
+}
+
+form.gb_ne {
+    background: #5d96f5;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form.gb_ne:hover {
+    background: #70a3f7;
+}
+
+/* Fuck you, gmail logo. I like inbox  better */
+
+img.gb_ma {
+    width: 36px;
+    height: 36px;
+    padding-left: 5px;
+    content: url("https://upload.wikimedia.org/wikipedia/commons/d/de/Google_Inbox_by_Gmail_logo.png");
+}
+
+/* Make the "Inbox" text in the top left not underlined */
+
+a.gb_ce {
+    text-decoration: none;
+}
+
+/* Add the "Inbox" text in the top left*/
+
+a.gb_Vd::after {
+    content: "Inbox";
+    padding-left: 15px;
+    color: #ffffff;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 19.5px;
+}
+
+/* Put a shadow underneath the top blue bar */
+
+div.gb_gd {
+    box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
+}
+
+/* Make the left bar have the same background color as everything else */
+
+div.nH.oy8Mbf.nn.aeN {
+    background-color: #f2f2f2;
+}
+
+/* Make the buttons on the left have nice formatting */
+
+div.aim {
+    height: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Make the buttons on the left have nice formatting ** REPEAT THE SAME AS THE PREVIOUS CLASS */
+
+div.n6 {
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* Make the buttons on the left never in bold */
+
+a.J-Ke.n0 {
+    font-weight: normal;
+    color: black;
+}
+
+/* Make the selected button on the left have nice formatting ** MUST INCLUDE EVERYTHING FROM THE PREVIOUS CLASS */
+
+div.TO.nZ.aiq {
+    height: 40px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgb(0,0,0,0.05);
+    font-weight: bold;
+}
+
+/* Extra padding above the inbox button in the top left. */
+
+div.wT {
+    padding-top: 10px;
+}
+
+/* Shorten the top bar a little bit */
+
+div.gb_gd.gb_Md.gb_od {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+/* Make the serach bar centered over the emails */
+
+.gb_qc {
+    padding-right: 211px;
+}
+
+/* Remove the number of emails per category on the left bar. */
+
+div.bsU {
+    display: none;
+}
+
+/* Hide the downwards carrot when hovering over the button "Inbox" on the left bar */
+
+.NQ .afM {
+    display: none;
+}
+
+/* Make the search bar vertically shorter and centered. */
+
+form.gb_ne.gb_Ze {
+    margin-top: 5px;
+    height: 36px;
+}
+
+/* Make the search bar text centered vertically, with the default horizontal offset. */
+
+.gb_Ie {
+    padding: 0px 16px 9px 16px;
+}
+
+/* Make the search icon centered vertically, with the default horizontal offset. */
+
+.gb_ne button svg, .gb_ne button img {
+    padding: 2px 7px 0px 7px;
+}
+
+/* Make the text in the search bar white*/
+
+input.gb_Ie {
+    color: white;
+}
+
+/* Remove the stars from each email */
+
+td.apU {
+    display: none;
+}
